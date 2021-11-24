@@ -1,8 +1,8 @@
 # simple-vqa
 
-一个简单的 vqa demo
-网上代码都和 shit 一样，要么环境不对，要么要现在各种大数据集和模型权重
-代码基于 Python3，推荐用 anaconda 维护纯洁环境
+- 一个简单的 vqa demo
+- 网上代码都和 shit 一样，要么环境不对，要么要现在各种大数据集和模型权重
+- 代码基于 Python3，推荐用 anaconda 维护纯洁环境
 
 ## About the Dataset
 
@@ -40,12 +40,12 @@ python gen_data/generate_data.py
 pip install -r use_keras/requirements.txt
 ```
 
-use_keras 下 train.py 训练模型
-windows.py 可视化界面
-analyze.py 分析结果
-model.py 模型的结构 可自行修改
+- use_keras 下 train.py 训练模型
+- windows.py 可视化界面
+- analyze.py 分析结果
+- model.py 模型的结构 可自行修改
 
 ## Personal Thinking
 
-vqa 噱头太大了，而且难以落地，为了提高准确率开放式变多选，不断造数据集，本质还是把图像和自然语言领域的模型各种结合
-只能说快跑
+- vqa 噱头太大了，而且难以落地，为了提高准确率开放式变多选，不断造数据集，本质还是把图像和自然语言领域的模型各种结合
+- 快跑!!!
